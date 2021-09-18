@@ -9,7 +9,6 @@ html {
 body {
   background-color: #f1f1f1;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 30rem;
 }
 
 ul {
@@ -34,6 +33,7 @@ sup {
 }
 
 .btn {
+  display: inline-block;
   font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
@@ -139,12 +139,12 @@ sup {
   padding: 1.6rem;
 }
 .form-container .search-btn {
+  font-family: "Poppins", sans-serif;
   padding: 1rem 1.6rem;
   margin-top: 8px;
   border: 0;
   outline: none;
   cursor: pointer;
-  font-family: "Poppins", sans-serif;
   background-color: #616161;
   font-size: 1.5rem;
   color: white;
@@ -262,6 +262,192 @@ sup {
 }
 .local__img {
   filter: grayscale(75%);
+}
+.local__contact {
+  padding: 3.8rem 0;
+}
+.local__contact-icon {
+  color: #f44336;
+  font-size: 1.6rem;
+}
+.local__contact-item {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #484848;
+}
+
+.demand {
+  padding: 4.2rem 0 4.2rem 2rem;
+  background-color: #f44336;
+  border-left: 8px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: none;
+  margin-bottom: 3.2rem;
+}
+.demand__icon {
+  color: white;
+  font-size: 1.8rem;
+  padding: 8px 15px;
+  background-color: #ff5722;
+  margin-right: 2.2rem;
+}
+.demand__desc {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 350;
+}
+
+.our-hotels {
+  padding: 0 1.6rem;
+  margin-bottom: 6.4rem;
+}
+.our-hotels__title {
+  font-size: 2.6rem;
+  color: #484848;
+  margin-bottom: 2.5rem;
+}
+.our-hotels__desc {
+  display: block;
+  margin-bottom: 3.4rem;
+  color: #484848;
+  font-size: 1.6rem;
+}
+.our-hotels__extend-item {
+  margin-bottom: 16px;
+}
+.our-hotels__container {
+  position: relative;
+}
+.our-hotels__container-name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 1.5rem 2rem;
+  font-size: 2rem;
+  font-weight: 350;
+  color: white;
+}
+
+.offers {
+  background-color: #000;
+  padding: 3.2rem 1.6rem;
+  opacity: 0.6;
+}
+.offers:hover {
+  opacity: 1;
+}
+.offers__title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 350;
+  margin-bottom: 3rem;
+}
+.offers__desc {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 350;
+  margin-bottom: 2.2rem;
+}
+.offers__email {
+  color: white;
+  font-size: 1.6rem;
+}
+.offers__input {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #ccc;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+.offers .btn-subs {
+  background-color: #f44336;
+  padding: 0.8rem 1.6rem;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 350;
+}
+.offers .btn-subs:hover {
+  background-color: #ccc;
+  color: #484848;
+}
+
+.contact {
+  margin-top: 5.5rem;
+  padding: 0 1.6rem;
+}
+.contact__title {
+  font-size: 3rem;
+  color: #484848;
+  margin-bottom: 3.2rem;
+}
+.contact__desc {
+  font-size: 1.6rem;
+  color: #484848;
+  margin-bottom: 2.2rem;
+}
+.contact__icon {
+  color: #f44336;
+  font-size: 1.4rem;
+  margin-right: 2rem;
+  margin-bottom: 9px;
+}
+.contact__content {
+  font-size: 1.6rem;
+  color: #484848;
+}
+.contact__form {
+  display: block;
+  margin-top: 1.8rem;
+}
+.contact__form-input {
+  padding: 1.6rem 0.8rem;
+  border: 1px solid #ccc;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 350;
+  color: #484848;
+  margin-bottom: 1.8rem;
+}
+.contact .send-btn {
+  background-color: #000;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 350;
+  text-transform: uppercase;
+  padding: 1.2rem 2.4rem;
+}
+.contact .send-btn:hover {
+  background-color: #ccc;
+  color: #484848;
+}
+
+.footer {
+  padding: 3.2rem 0;
+  background-color: #000;
+  margin-top: 3.2rem;
+}
+.footer__title {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 350;
+  text-align: center;
+  margin: 1rem 0;
+}
+.footer__list-icon {
+  padding: 2.2rem 0;
+  text-align: center;
+}
+.footer__icon {
+  color: white;
+  font-size: 2rem;
+  padding: 4px;
+}
+.footer__icon:hover {
+  color: #ccc;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

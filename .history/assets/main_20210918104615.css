@@ -1,0 +1,286 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 30rem;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+sup {
+  font-size: 75%;
+  position: relative;
+  line-height: 0;
+  top: -0.5em;
+  vertical-align: baseline;
+}
+
+.btn {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+  outline: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 4.4rem;
+  background-color: white;
+  font-size: 2rem;
+}
+.header .logo {
+  background-color: #f44336;
+  height: 100%;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.4rem 1.8rem;
+}
+.header .logo__icon {
+  margin-right: 2rem;
+}
+.header .logo:hover {
+  background-color: #ccc;
+  color: #484848;
+}
+.header__menu {
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.header__menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 100%;
+  cursor: pointer;
+  color: #484848;
+}
+.header__menu-item:hover {
+  background-color: #ccc;
+}
+.header .book-btn {
+  background-color: #f1f1f1;
+  padding: 1.4rem 1.6rem;
+  color: #484848;
+  font-size: 2rem;
+}
+.header .book-btn:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.intro {
+  position: relative;
+  margin-bottom: 3.8rem;
+}
+.intro-icon {
+  padding: 0 1.8rem;
+}
+.intro .form-login {
+  width: 64.4rem;
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  background-color: #fff;
+  transform: translateY(-50%);
+}
+.intro .form-login__heading {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 6.4rem;
+  background-color: #f44336;
+  color: white;
+  font-size: 3rem;
+}
+
+.form-container {
+  padding: 1.6rem;
+}
+.form-container .search-btn {
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 1.6rem;
+  margin-top: 8px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: #616161;
+  font-size: 1.5rem;
+  color: white;
+}
+.form-container .search-btn--full {
+  width: 100%;
+  margin: 0;
+  background-color: #000;
+  color: white;
+  padding: 6px 0;
+}
+.form-container .search-btn:hover {
+  background-color: #ccc;
+  color: #484848;
+}
+.form-container .search-icon {
+  padding-right: 2rem;
+}
+
+.form__item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.6rem;
+}
+.form__item-category {
+  font-size: 1.6rem;
+  margin-bottom: 4px;
+  color: #484848;
+}
+.form__item-input {
+  padding: 1rem;
+  border: 1px solid #dedede;
+}
+
+.option-container {
+  padding: 1.6rem;
+  margin-bottom: 2rem;
+}
+.option-container__title {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+  color: #484848;
+}
+.option-container__desc {
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: #484848;
+}
+.option-container__form {
+  padding: 1.6rem 0;
+}
+
+.category-room__details {
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.category-room__title {
+  font-size: 2.6rem;
+  margin-bottom: 2rem;
+  color: #484848;
+}
+.category-room__price {
+  font-size: 1.6rem;
+  color: #999;
+  margin-bottom: 2rem;
+}
+.category-room__charac {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.category-room__area {
+  font-size: 1.6rem;
+  margin-bottom: 2.8rem;
+}
+.category-room__function {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+.category-room .btn-choose {
+  padding: 1.2rem 0;
+  background-color: #000;
+  color: white;
+  font-size: 1.4rem;
+}
+.category-room .btn-choose:hover {
+  background-color: #ccc;
+  color: #484848;
+}
+
+.local {
+  padding: 0 1.6rem;
+}
+.local__title {
+  font-size: 2.6rem;
+  margin-top: 2.2rem;
+  margin-bottom: 2rem;
+  color: #484848;
+}
+.local__detail {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 2.4rem;
+  color: #484848;
+}
+.local__payment-methods {
+  font-size: 1.6rem;
+  color: #484848;
+}
+.local__payment-icon {
+  font-size: 1.8rem;
+  margin: 0 2px;
+}
+.local__img {
+  filter: grayscale(75%);
+}
+.local__contact {
+  padding: 3.8rem 0;
+}
+.local__contact-icon {
+  color: #f44336;
+  font-size: 1.6rem;
+}
+.local__contact-item {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #484848;
+}
+
+.demand {
+  padding: 4.2rem 0;
+  background-color: #f44336;
+  font-size: 1.4rem;
+  color: white;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@50;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/resets.css" />
+    <link rel="stylesheet" href="./assets/grid.css" />
+    <link rel="stylesheet" href="./assets/main.css" />
+  </head>
+  <body>
+    <div class="grids">
+      <header class="header">
+        <div class="logo">
+          <i class="fas fa-bed logo__icon"></i>
+          Logo
+        </div>
+        <div class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">Rooms</li>
+            <li class="header__menu-item">About</li>
+            <li class="header__menu-item">Contact</li>
+          </ul>
+          <button class="btn book-btn">Book Nows</button>
+        </div>
+      </header>
+      <section class="intro">
+        <img src="./assets/img/hotel.jpg" alt="" class="intro__img" />
+        <form class="form-login">
+          <div class="form-login__heading">
+            <i class="fas fa-bed logo__icon intro-icon"></i>
+            <h2 class="form-login__name">Hotel name</h2>
+          </div>
+          <div class="form-container">
+            <div class="row">
+              <div class="form__item col l-6">
+                <label class="form__item-category">
+                  <i class="far fa-calendar form__item-icon"></i>
+                  Check Ins
+                </label>
+                <input
+                  type="text"
+                  class="form__item-input"
+                  placeholder="DD MM YY"
+                />
+              </div>
+              <div class="form__item col l-6">
+                <label class="form__item-category">
+                  <i class="far fa-calendar form__item-icon"></i>
+                  Check Out
+                </label>
+                <input
+                  type="text"
+                  class="form__item-input"
+                  placeholder="DD MM YY"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form__item col l-6">
+                <label class="form__item-category">
+                  <i class="fas fa-male form__item-icon"></i>
+                  Adults
+                </label>
+                <input
+                  type="number"
+                  value="1"
+                  min="1"
+                  max="6"
+                  class="form__item-input"
+                />
+              </div>
+              <div class="form__item col l-6">
+                <label class="form__item-category">
+                  <i class="fas fa-child form__item-icon"></i>
+                  Kids
+                </label>
+                <input
+                  type="number"
+                  value="0"
+                  min="0"
+                  max="6"
+                  class="form__item-input"
+                />
+              </div>
+            </div>
+            <button class="search-btn">
+              <i class="fas fa-search search-icon"></i>Search availability
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <section class="option-room">
+        <div class="option-container">
+          <h3 class="option-container__title">Rooms</h3>
+          <span class="option-container__desc"
+            >Make yourself at home is our slogan. We offer the best beds in the
+            industry. Sleep well and rest well.</span
+          >
+          <!-- FORM LOGIN  -->
+          <div class="form-container option-container__form">
+            <div class="row">
+              <div class="form__item col l-3">
+                <label class="form__item-category">
+                  <i class="far fa-calendar form__item-icon"></i>
+                  Check Ins
+                </label>
+                <input
+                  type="text"
+                  class="form__item-input"
+                  placeholder="DD MM YY"
+                />
+              </div>
+              <div class="form__item col l-3">
+                <label class="form__item-category">
+                  <i class="far fa-calendar form__item-icon"></i>
+                  Check Out
+                </label>
+                <input
+                  type="text"
+                  class="form__item-input"
+                  placeholder="DD MM YY"
+                />
+              </div>
+              <div class="form__item col l-2">
+                <label class="form__item-category">
+                  <i class="fas fa-male form__item-icon"></i>
+                  Adults
+                </label>
+                <input
+                  type="number"
+                  value="1"
+                  min="1"
+                  max="6"
+                  class="form__item-input"
+                />
+              </div>
+              <div class="form__item col l-2">
+                <label class="form__item-category">
+                  <i class="fas fa-child form__item-icon"></i>
+                  Kids
+                </label>
+                <input
+                  type="number"
+                  value="0"
+                  min="0"
+                  max="6"
+                  class="form__item-input"
+                />
+              </div>
+              <!-- BUTTON F0RM LOGIN -->
+              <div class="form__item col l-2">
+                <label class="form__item-category">
+                  <i class="fas fa-search"></i> Search</label
+                >
+                <button class="search-btn search-btn--full">Search</button>
+              </div>
+            </div>
+          </div>
+          <div class="category-room">
+            <ul class="category-room__list row">
+              <li class="category-room__item col l-4">
+                <img
+                  src="./assets/img/room_single.jpg"
+                  alt=""
+                  class="category-room__img"
+                />
+                <div class="category-room__details">
+                  <h3 class="category-room__title">Single Room</h3>
+                  <span class="category-room__price">From $99</span>
+                  <span class="category-room__charac">Single bed</span>
+                  <span class="category-room__area">15m<sup>2</sup></span>
+                  <span class="category-room__function">
+                    <i class="fas fa-phone-alt"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-tv"></i>
+                    <i class="fas fa-bath"></i>
+                  </span>
+                  <button class="btn btn-choose">Choose Room</button>
+                </div>
+              </li>
+              <li class="category-room__item col l-4">
+                <img
+                  src="./assets/img/room_double.jpg"
+                  alt=""
+                  class="category-room__img"
+                />
+                <div class="category-room__details">
+                  <h3 class="category-room__title">Double Room</h3>
+                  <span class="category-room__price">From $99</span>
+                  <span class="category-room__charac">Single bed</span>
+                  <span class="category-room__area">25m<sup>2</sup></span>
+                  <span class="category-room__function">
+                    <i class="fas fa-phone-alt"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-tv"></i>
+                    <i class="fas fa-bath"></i>
+                  </span>
+                  <button class="btn btn-choose">Choose Room</button>
+                </div>
+              </li>
+              <li class="category-room__item col l-4">
+                <img
+                  src="./assets/img/room_deluxe.jpg"
+                  alt=""
+                  class="category-room__img"
+                />
+                <div class="category-room__details">
+                  <h3 class="category-room__title">Deluxe Room</h3>
+                  <span class="category-room__price">From $99</span>
+                  <span class="category-room__charac">Single bed</span>
+                  <span class="category-room__area">40m<sup>2</sup></span>
+                  <span class="category-room__function">
+                    <i class="fas fa-phone-alt"></i>
+                    <i class="fas fa-wifi"></i>
+                    <i class="fas fa-tv"></i>
+                    <i class="fas fa-bath"></i>
+                  </span>
+                  <button class="btn btn-choose">Choose Room</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="local">
+        <div class="row">
+          <div class="local__container col l-4">
+            <h4 class="local__title">About</h4>
+            <p class="local__detail">
+              Our hotel is one of a kind. It is truely amazing. Lorem ipsum
+              dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum consectetur adipiscing
+              elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+              aliqua. Ut enim ad minim veniam.
+            </p>
+            <p class="local__payment-methods">
+              We accept:
+              <i class="fab fa-cc-paypal local__payment-icon"></i>
+              <i class="fab fa-cc-amex local__payment-icon"></i>
+            </p>
+          </div>
+          <img src="./assets/img/map.jpg" alt="" class="col l-8 local__img" />
+        </div>
+        <div class="local__contact row">
+          <div class="local__contact-item col l-4">
+            <i class="fas fa-map-marker-alt local__contact-icon"></i>
+            423 Some adr, Chicago, US
+          </div>
+          <div class="local__contact-item col l-4">
+            <i class="fas fa-phone-alt local__contact-icon"></i>
+            Phone: +00 151515
+          </div>
+          <div class="local__contact-item col l-4">
+            <i class="fas fa-envelope local__contact-icon"></i>
+            Email: mail@mail.com
+          </div>
+        </div>
+      </section>
+      <div class="demand">
+        <i class="fas fa-exclamation demand__icon"></i>
+        <p class="demand__desc">
+          On demand, we can offer playstation, babycall, children care, dog
+          equipment, etc.
+        </p>
+      </div>
+      <section class="our-hotels">
+        <h3 class="our-hotels__title">Our Hotels</h3>
+        <p class="our-hotels__desc">
+          You can find our hotels anywhere in the world:
+        </p>
+        <div class="row sm-gutter">
+          <div class="col l-6">
+            <img
+              src="./assets/img/cinqueterre.jpg"
+              alt=""
+              class="our-hotel__img"
+            />
+          </div>
+          <div class="col l-6">
+            <div class="our-hotel__extend">
+              <div class="row our-hotels__extend-item">
+                <div class="our-hotels__container col l-6">
+                  <img src="./assets/img/newyork2.jpg" alt="" class="" />
+                  <span class="our-hotels__container-name">New York</span>
+                </div>
+                <div class="our-hotels__container col l-6">
+                  <img src="./assets/img/pisa.jpg" alt="" class="" />
+                  <span class="our-hotels__container-name">Pisa</span>
+                </div>
+              </div>
+              <div class="row our-hotels__extend-item">
+                <div class="our-hotels__container col l-6">
+                  <img src="./assets/img/sanfran.jpg" alt="" class="" />
+                  <span class="our-hotels__container-name">San Francisco</span>
+                </div>
+                <div class="our-hotels__container col l-6">
+                  <img src="./assets/img/paris.jpg" alt="" class="" />
+                  <span class="our-hotels__container-name">Paris</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="offers">
+        <h3 class="offers__title">Get the best offers first!</h3>
+        <p class="offers__desc">Join our newsletter.</p>
+        <label for="" class="offers__email">Email</label>
+        <input
+          type="text"
+          class="offers__input"
+          placeholder="Your Email address"
+        />
+      </section>
+    </div>
+  </body>
+</html>
