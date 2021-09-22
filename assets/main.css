@@ -43,6 +43,7 @@ sup {
   outline: none;
   cursor: pointer;
   border: 0;
+  min-width: 80px;
 }
 
 .btn:hover {
