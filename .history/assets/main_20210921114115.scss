@@ -2,7 +2,6 @@ $primary-color: #f44336;
 $secondary-color: #0000;
 $text-color: #484848;
 $hover-color: #ccc;
-$header-height: 4.4rem;
 
 @mixin flex($align: center, $justify: space-between) {
   display: flex;
@@ -18,7 +17,6 @@ html {
 body {
   background-color: #f1f1f1;
   font-family: "Poppins", sans-serif;
-  line-height: 1.4;
 }
 ul {
   list-style: none;
@@ -55,7 +53,7 @@ sup {
 .header {
   display: flex;
   align-items: center;
-  height: $header-height;
+  min-height: 4.4rem;
   background-color: white;
   font-size: 2rem;
 
@@ -114,7 +112,7 @@ sup {
     padding: 0 1.8rem;
   }
   .form-login {
-    width: 50%;
+    width: 64.4rem;
     position: absolute;
     top: 50%;
     left: 2rem;
@@ -308,12 +306,11 @@ sup {
   }
   &__extend {
     &-item {
-      // margin-bottom: 16px;
+      margin-bottom: 16px;
     }
   }
   &__container {
     position: relative;
-    margin-bottom: 1.6rem;
     &-name {
       position: absolute;
       left: 0;
@@ -413,7 +410,6 @@ sup {
     font-weight: 350;
     text-transform: uppercase;
     padding: 1.2rem 2.4rem;
-    min-width: 8rem;
     &:hover {
       background-color: $hover-color;
       color: $text-color;

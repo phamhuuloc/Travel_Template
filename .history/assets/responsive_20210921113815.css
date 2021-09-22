@@ -1,0 +1,27 @@
+@media (min-width: 740px) and (max-width: 1024px) {
+  .local__container {
+    max-width: 100%;
+    flex: 100%;
+    margin-bottom: 2.2rem;
+  }
+  .local__img {
+    max-width: 100%;
+    flex: 100%;
+  }
+  .demand__desc {
+    font-size: 1.4rem;
+  }
+  .our-hotels__container-name {
+    font-size: 1.8rem;
+  }
+}
+/*MOBILE  */
+@media (min-width: 600) and (max-width: 800) {
+  .header {
+    flex-direction: column;
+  }
+  .logo {
+    justify-content: center;
+    width: 100%;
+  }
+}

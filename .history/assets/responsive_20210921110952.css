@@ -1,0 +1,7 @@
+@media (min-width: 740px) and (max-width: 1024px) {
+  .local__container {
+    max-width: 100%;
+    flex: 100%;
+    margin-bottom: 2.2rem;
+  }
+}

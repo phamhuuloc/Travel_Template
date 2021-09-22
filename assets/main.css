@@ -9,6 +9,7 @@ html {
 body {
   background-color: #f1f1f1;
   font-family: "Poppins", sans-serif;
+  line-height: 1.4;
 }
 
 ul {
@@ -118,7 +119,7 @@ sup {
   padding: 0 1.8rem;
 }
 .intro .form-login {
-  width: 64.4rem;
+  width: 50%;
   position: absolute;
   top: 50%;
   left: 2rem;
@@ -313,11 +314,9 @@ sup {
   color: #484848;
   font-size: 1.6rem;
 }
-.our-hotels__extend-item {
-  margin-bottom: 16px;
-}
 .our-hotels__container {
   position: relative;
+  margin-bottom: 1.6rem;
 }
 .our-hotels__container-name {
   position: absolute;
@@ -418,6 +417,7 @@ sup {
   font-weight: 350;
   text-transform: uppercase;
   padding: 1.2rem 2.4rem;
+  min-width: 8rem;
 }
 .contact .send-btn:hover {
   background-color: #ccc;

@@ -1,0 +1,76 @@
+/* TABLET */
+@media (min-width: 740px) and (max-width: 1024px) {
+  .local__container {
+    max-width: 100%;
+    flex: 100%;
+    margin-bottom: 2.2rem;
+  }
+  .local__img {
+    max-width: 100%;
+    flex: 100%;
+  }
+  .demand__desc {
+    font-size: 1.4rem;
+  }
+  .our-hotels__container-name {
+    font-size: 1.8rem;
+  }
+}
+/*MOBILE  */
+@media (max-width: 740px) {
+  /* BTN */
+  .wrap-btn {
+    margin-bottom: -1.6rem;
+  }
+  /* HEADER */
+  .header {
+    flex-direction: column;
+    height: 100%;
+  }
+  .header .logo {
+    justify-content: center;
+    width: 100%;
+  }
+  .header__menu {
+    flex-direction: column;
+  }
+  .header__menu-list {
+    flex-direction: column;
+    width: 100%;
+  }
+  .header__menu-item {
+    width: 100%;
+    justify-content: center;
+    height: 4.4rem;
+  }
+  .book-btn {
+    width: 100%;
+  }
+  /* INTRO */
+  .intro__img {
+    height: 800px;
+    object-fit: cover;
+  }
+  .intro .form-login {
+    width: initial;
+    right: 2rem;
+  }
+  /* OPTION ROOM */
+  .category-room__item {
+    margin-top: 1.6rem;
+  }
+  .local__container {
+    margin-bottom: 2.2rem;
+  }
+
+  .local__contact {
+    display: block;
+  }
+  .local__contact-item {
+    padding: 8px 0;
+  }
+  /* OUR HOTELS */
+  .our-hotels--famous {
+    margin-bottom: 1.6rem;
+  }
+}
